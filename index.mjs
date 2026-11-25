@@ -18,7 +18,7 @@ import {
   text,
   verdict,
   z,
-} from '@cairul/plugin-kit';
+} from '@cairul/pdk';
 import { connectAuthorization } from './connect-auth.mjs';
 
 export default function jira({ apiVersion, siteUrl, consumerKey, privateKeyFile, connectAppKey, ...options } = {}) {

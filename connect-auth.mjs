@@ -1,7 +1,7 @@
 import { Buffer } from 'node:buffer';
 import { createHash, createHmac } from 'node:crypto';
 
-import { oauthEncode as encode } from '@cairul/plugin-kit';
+import { oauthEncode as encode } from '@cairul/pdk';
 
 const json64 = (value) => Buffer.from(JSON.stringify(value)).toString('base64url');
 
